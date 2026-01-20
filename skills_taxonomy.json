@@ -1,0 +1,5242 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-01-19T04:39:35.823575Z",
+  "roles": {
+    "backend": "Backend Engineer",
+    "fullstack": "Fullstack Engineer",
+    "cloud_devops": "Cloud/DevOps Engineer"
+  },
+  "skills": [
+    {
+      "id": "python",
+      "canonical_name": "Python",
+      "aliases": [
+        "Python",
+        "python"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "java",
+      "canonical_name": "Java",
+      "aliases": [
+        "java",
+        "Java"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "c",
+      "canonical_name": "C#",
+      "aliases": [
+        ".net",
+        "c sharp",
+        "C#",
+        "c#",
+        "dotnet"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "javascript",
+      "canonical_name": "JavaScript",
+      "aliases": [
+        "ecmascript",
+        "JavaScript",
+        "javascript",
+        "js"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "typescript",
+      "canonical_name": "TypeScript",
+      "aliases": [
+        "ts",
+        "TypeScript",
+        "typescript"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "go",
+      "canonical_name": "Go",
+      "aliases": [
+        "Go",
+        "go",
+        "golang"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "php",
+      "canonical_name": "PHP",
+      "aliases": [
+        "php",
+        "PHP"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "ruby",
+      "canonical_name": "Ruby",
+      "aliases": [
+        "Ruby",
+        "ruby"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "kotlin",
+      "canonical_name": "Kotlin",
+      "aliases": [
+        "kotlin",
+        "Kotlin"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "swift",
+      "canonical_name": "Swift",
+      "aliases": [
+        "Swift",
+        "swift"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "c",
+      "canonical_name": "C++",
+      "aliases": [
+        "C++",
+        "c++",
+        "cpp"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "c",
+      "canonical_name": "C",
+      "aliases": [
+        "c",
+        "C"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "rust",
+      "canonical_name": "Rust",
+      "aliases": [
+        "rust",
+        "Rust"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "scala",
+      "canonical_name": "Scala",
+      "aliases": [
+        "Scala",
+        "scala"
+      ],
+      "category": "Programming Languages",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "node_js",
+      "canonical_name": "Node.js",
+      "aliases": [
+        "node",
+        "node.js",
+        "Node.js",
+        "nodejs"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "express_js",
+      "canonical_name": "Express.js",
+      "aliases": [
+        "express",
+        "Express.js",
+        "express.js"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nestjs",
+      "canonical_name": "NestJS",
+      "aliases": [
+        "nest js",
+        "NestJS",
+        "nestjs"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "fastapi",
+      "canonical_name": "FastAPI",
+      "aliases": [
+        "fastapi",
+        "FastAPI"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "flask",
+      "canonical_name": "Flask",
+      "aliases": [
+        "Flask",
+        "flask"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "django",
+      "canonical_name": "Django",
+      "aliases": [
+        "Django",
+        "django"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "spring_boot",
+      "canonical_name": "Spring Boot",
+      "aliases": [
+        "spring",
+        "spring boot",
+        "Spring Boot",
+        "springboot"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "asp_net_core",
+      "canonical_name": "ASP.NET Core",
+      "aliases": [
+        ".net core",
+        "ASP.NET Core",
+        "asp.net core",
+        "aspnet core",
+        "dotnet core"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "laravel",
+      "canonical_name": "Laravel",
+      "aliases": [
+        "laravel",
+        "Laravel"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "symfony",
+      "canonical_name": "Symfony",
+      "aliases": [
+        "Symfony",
+        "symfony"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ruby_on_rails",
+      "canonical_name": "Ruby on Rails",
+      "aliases": [
+        "rails",
+        "Ruby on Rails",
+        "ruby on rails"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "gin",
+      "canonical_name": "Gin",
+      "aliases": [
+        "gin",
+        "Gin",
+        "gin-gonic"
+      ],
+      "category": "Backend Frameworks",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "react",
+      "canonical_name": "React",
+      "aliases": [
+        "React",
+        "react",
+        "react.js",
+        "reactjs"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "next_js",
+      "canonical_name": "Next.js",
+      "aliases": [
+        "Next.js",
+        "next.js",
+        "nextjs"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "angular",
+      "canonical_name": "Angular",
+      "aliases": [
+        "angular",
+        "Angular"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vue_js",
+      "canonical_name": "Vue.js",
+      "aliases": [
+        "vue",
+        "vue.js",
+        "Vue.js"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "svelte",
+      "canonical_name": "Svelte",
+      "aliases": [
+        "svelte",
+        "Svelte"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "flutter",
+      "canonical_name": "Flutter",
+      "aliases": [
+        "dart flutter",
+        "flutter",
+        "Flutter"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "react_native",
+      "canonical_name": "React Native",
+      "aliases": [
+        "React Native",
+        "react native",
+        "rn"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "tailwind_css",
+      "canonical_name": "Tailwind CSS",
+      "aliases": [
+        "tailwind",
+        "Tailwind CSS",
+        "tailwindcss"
+      ],
+      "category": "Frontend Frameworks",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "postgresql",
+      "canonical_name": "PostgreSQL",
+      "aliases": [
+        "postgres",
+        "PostgreSQL",
+        "postgresql"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "mysql",
+      "canonical_name": "MySQL",
+      "aliases": [
+        "mysql",
+        "MySQL"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "sqlite",
+      "canonical_name": "SQLite",
+      "aliases": [
+        "sqlite",
+        "SQLite"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "mongodb",
+      "canonical_name": "MongoDB",
+      "aliases": [
+        "mongo",
+        "mongodb",
+        "MongoDB"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "redis",
+      "canonical_name": "Redis",
+      "aliases": [
+        "Redis",
+        "redis"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "elasticsearch",
+      "canonical_name": "Elasticsearch",
+      "aliases": [
+        "elastic search",
+        "Elasticsearch",
+        "elasticsearch",
+        "es"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "dynamodb",
+      "canonical_name": "DynamoDB",
+      "aliases": [
+        "dynamodb",
+        "DynamoDB"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "sql_server",
+      "canonical_name": "SQL Server",
+      "aliases": [
+        "microsoft sql server",
+        "mssql",
+        "sql server",
+        "SQL Server"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "oracle_database",
+      "canonical_name": "Oracle Database",
+      "aliases": [
+        "oracle",
+        "Oracle Database",
+        "oracle db"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "firestore",
+      "canonical_name": "Firestore",
+      "aliases": [
+        "cloud firestore",
+        "firestore",
+        "Firestore"
+      ],
+      "category": "Databases",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "sql",
+      "canonical_name": "SQL",
+      "aliases": [
+        "SQL",
+        "sql"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "normalization",
+      "canonical_name": "Normalization",
+      "aliases": [
+        "1nf",
+        "2nf",
+        "3nf",
+        "bc nf",
+        "bcnf",
+        "Normalization",
+        "normalization"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "indexing",
+      "canonical_name": "Indexing",
+      "aliases": [
+        "indexes",
+        "indexing",
+        "Indexing",
+        "indices"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "transactions",
+      "canonical_name": "Transactions",
+      "aliases": [
+        "acid",
+        "Transactions",
+        "transactions"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "query_optimization",
+      "canonical_name": "Query Optimization",
+      "aliases": [
+        "Query Optimization",
+        "query optimization",
+        "sql tuning"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "database_migrations",
+      "canonical_name": "Database Migrations",
+      "aliases": [
+        "Database Migrations",
+        "migrations",
+        "schema migration"
+      ],
+      "category": "Data Modeling & SQL",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rest",
+      "canonical_name": "REST",
+      "aliases": [
+        "REST",
+        "rest",
+        "restful"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "graphql",
+      "canonical_name": "GraphQL",
+      "aliases": [
+        "graphql",
+        "GraphQL"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "grpc",
+      "canonical_name": "gRPC",
+      "aliases": [
+        "gRPC",
+        "grpc"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "websockets",
+      "canonical_name": "WebSockets",
+      "aliases": [
+        "web socket",
+        "websockets",
+        "WebSockets"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "openapi_swagger",
+      "canonical_name": "OpenAPI/Swagger",
+      "aliases": [
+        "openapi",
+        "OpenAPI/Swagger",
+        "swagger"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "api_versioning",
+      "canonical_name": "API Versioning",
+      "aliases": [
+        "API Versioning",
+        "api versioning",
+        "versioning"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "rate_limiting",
+      "canonical_name": "Rate Limiting",
+      "aliases": [
+        "rate limiting",
+        "Rate Limiting",
+        "throttling"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "idempotency",
+      "canonical_name": "Idempotency",
+      "aliases": [
+        "Idempotency",
+        "idempotency",
+        "idempotent"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "pagination",
+      "canonical_name": "Pagination",
+      "aliases": [
+        "cursor pagination",
+        "offset pagination",
+        "Pagination",
+        "pagination"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "webhook_design",
+      "canonical_name": "Webhook Design",
+      "aliases": [
+        "webhook",
+        "Webhook Design",
+        "webhooks"
+      ],
+      "category": "APIs & Integration",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "oauth_2_0",
+      "canonical_name": "OAuth 2.0",
+      "aliases": [
+        "oauth",
+        "oauth 2.0",
+        "OAuth 2.0",
+        "oauth2"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "openid_connect",
+      "canonical_name": "OpenID Connect",
+      "aliases": [
+        "oidc",
+        "open id connect",
+        "openid connect",
+        "OpenID Connect"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "jwt",
+      "canonical_name": "JWT",
+      "aliases": [
+        "json web token",
+        "JWT",
+        "jwt"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "session_auth",
+      "canonical_name": "Session Auth",
+      "aliases": [
+        "cookies session",
+        "session auth",
+        "Session Auth"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rbac",
+      "canonical_name": "RBAC",
+      "aliases": [
+        "rbac",
+        "RBAC",
+        "role based access control"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "abac",
+      "canonical_name": "ABAC",
+      "aliases": [
+        "ABAC",
+        "abac",
+        "attribute based access control"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "tls_https",
+      "canonical_name": "TLS/HTTPS",
+      "aliases": [
+        "https",
+        "ssl",
+        "tls",
+        "TLS/HTTPS"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cors",
+      "canonical_name": "CORS",
+      "aliases": [
+        "cors",
+        "CORS"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "owasp_top_10",
+      "canonical_name": "OWASP Top 10",
+      "aliases": [
+        "owasp",
+        "OWASP Top 10",
+        "owasp top 10"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "input_validation",
+      "canonical_name": "Input Validation",
+      "aliases": [
+        "Input Validation",
+        "input validation",
+        "validation"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "secrets_management",
+      "canonical_name": "Secrets Management",
+      "aliases": [
+        "aws secrets manager",
+        "key vault",
+        "secrets management",
+        "Secrets Management",
+        "vault"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "threat_modeling",
+      "canonical_name": "Threat Modeling",
+      "aliases": [
+        "Threat Modeling",
+        "threat modeling"
+      ],
+      "category": "Auth & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "unit_testing",
+      "canonical_name": "Unit Testing",
+      "aliases": [
+        "Unit Testing",
+        "unit testing",
+        "unit tests"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "integration_testing",
+      "canonical_name": "Integration Testing",
+      "aliases": [
+        "Integration Testing",
+        "integration testing"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "e2e_testing",
+      "canonical_name": "E2E Testing",
+      "aliases": [
+        "e2e",
+        "E2E Testing",
+        "end to end testing"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "tdd",
+      "canonical_name": "TDD",
+      "aliases": [
+        "tdd",
+        "TDD",
+        "test driven development"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "mocking",
+      "canonical_name": "Mocking",
+      "aliases": [
+        "mocking",
+        "Mocking",
+        "mocks",
+        "stubs"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "load_testing",
+      "canonical_name": "Load Testing",
+      "aliases": [
+        "jmeter",
+        "k6",
+        "Load Testing",
+        "load testing",
+        "locust",
+        "stress testing"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "api_testing",
+      "canonical_name": "API Testing",
+      "aliases": [
+        "API Testing",
+        "api testing",
+        "newman",
+        "postman"
+      ],
+      "category": "Testing",
+      "roles": [
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "git",
+      "canonical_name": "Git",
+      "aliases": [
+        "git",
+        "Git"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "linux",
+      "canonical_name": "Linux",
+      "aliases": [
+        "Linux",
+        "linux"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "bash",
+      "canonical_name": "Bash",
+      "aliases": [
+        "bash",
+        "Bash",
+        "shell scripting"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "docker",
+      "canonical_name": "Docker",
+      "aliases": [
+        "Docker",
+        "docker"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "docker_compose",
+      "canonical_name": "Docker Compose",
+      "aliases": [
+        "compose",
+        "Docker Compose",
+        "docker compose"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "kubernetes",
+      "canonical_name": "Kubernetes",
+      "aliases": [
+        "k8s",
+        "Kubernetes",
+        "kubernetes"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "helm",
+      "canonical_name": "Helm",
+      "aliases": [
+        "Helm",
+        "helm"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "ci_cd",
+      "canonical_name": "CI/CD",
+      "aliases": [
+        "CI/CD",
+        "ci/cd",
+        "cicd",
+        "pipelines"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "github_actions",
+      "canonical_name": "GitHub Actions",
+      "aliases": [
+        "GitHub Actions",
+        "github actions"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "gitlab_ci",
+      "canonical_name": "GitLab CI",
+      "aliases": [
+        "GitLab CI",
+        "gitlab ci"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "jenkins",
+      "canonical_name": "Jenkins",
+      "aliases": [
+        "jenkins",
+        "Jenkins"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "terraform",
+      "canonical_name": "Terraform",
+      "aliases": [
+        "iac",
+        "terraform",
+        "Terraform"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "pulumi",
+      "canonical_name": "Pulumi",
+      "aliases": [
+        "pulumi",
+        "Pulumi"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "ansible",
+      "canonical_name": "Ansible",
+      "aliases": [
+        "Ansible",
+        "ansible"
+      ],
+      "category": "DevOps Fundamentals",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "aws",
+      "canonical_name": "AWS",
+      "aliases": [
+        "amazon web services",
+        "aws",
+        "AWS"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ec2",
+      "canonical_name": "EC2",
+      "aliases": [
+        "ec2",
+        "EC2"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "s3",
+      "canonical_name": "S3",
+      "aliases": [
+        "s3",
+        "S3"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "iam",
+      "canonical_name": "IAM",
+      "aliases": [
+        "IAM",
+        "iam"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vpc",
+      "canonical_name": "VPC",
+      "aliases": [
+        "VPC",
+        "vpc"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloudfront",
+      "canonical_name": "CloudFront",
+      "aliases": [
+        "cloudfront",
+        "CloudFront"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rds",
+      "canonical_name": "RDS",
+      "aliases": [
+        "RDS",
+        "rds"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ecs",
+      "canonical_name": "ECS",
+      "aliases": [
+        "ecs",
+        "ECS"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "eks",
+      "canonical_name": "EKS",
+      "aliases": [
+        "eks",
+        "EKS"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "lambda",
+      "canonical_name": "Lambda",
+      "aliases": [
+        "aws lambda",
+        "lambda",
+        "Lambda"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "api_gateway",
+      "canonical_name": "API Gateway",
+      "aliases": [
+        "api gateway",
+        "API Gateway",
+        "apigateway"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloudwatch",
+      "canonical_name": "CloudWatch",
+      "aliases": [
+        "CloudWatch",
+        "cloudwatch"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sqs",
+      "canonical_name": "SQS",
+      "aliases": [
+        "SQS",
+        "sqs"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sns",
+      "canonical_name": "SNS",
+      "aliases": [
+        "sns",
+        "SNS"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "route_53",
+      "canonical_name": "Route 53",
+      "aliases": [
+        "Route 53",
+        "route 53",
+        "route53"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "secrets_manager",
+      "canonical_name": "Secrets Manager",
+      "aliases": [
+        "aws secrets manager",
+        "secrets manager",
+        "Secrets Manager"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "kms",
+      "canonical_name": "KMS",
+      "aliases": [
+        "kms",
+        "KMS"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure",
+      "canonical_name": "Azure",
+      "aliases": [
+        "Azure",
+        "azure",
+        "microsoft azure"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_functions",
+      "canonical_name": "Azure Functions",
+      "aliases": [
+        "azure functions",
+        "Azure Functions",
+        "functions"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_app_service",
+      "canonical_name": "Azure App Service",
+      "aliases": [
+        "app service",
+        "Azure App Service"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_storage",
+      "canonical_name": "Azure Storage",
+      "aliases": [
+        "azure storage",
+        "Azure Storage",
+        "blob storage"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_sql",
+      "canonical_name": "Azure SQL",
+      "aliases": [
+        "Azure SQL",
+        "azure sql"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_service_bus",
+      "canonical_name": "Azure Service Bus",
+      "aliases": [
+        "Azure Service Bus",
+        "azure service bus",
+        "service bus"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_api_management",
+      "canonical_name": "Azure API Management",
+      "aliases": [
+        "api management",
+        "apim",
+        "Azure API Management",
+        "azure apim"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_key_vault",
+      "canonical_name": "Azure Key Vault",
+      "aliases": [
+        "azure key vault",
+        "Azure Key Vault",
+        "key vault"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_monitor",
+      "canonical_name": "Azure Monitor",
+      "aliases": [
+        "app insights",
+        "application insights",
+        "azure monitor",
+        "Azure Monitor"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "aks",
+      "canonical_name": "AKS",
+      "aliases": [
+        "aks",
+        "AKS",
+        "azure kubernetes service"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_devops",
+      "canonical_name": "Azure DevOps",
+      "aliases": [
+        "ado",
+        "azure devops",
+        "Azure DevOps"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "entra_id",
+      "canonical_name": "Entra ID",
+      "aliases": [
+        "aad",
+        "azure ad",
+        "entra id",
+        "Entra ID"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "logging",
+      "canonical_name": "Logging",
+      "aliases": [
+        "Logging",
+        "logging"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "structured_logging",
+      "canonical_name": "Structured Logging",
+      "aliases": [
+        "json logs",
+        "Structured Logging",
+        "structured logging"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "metrics",
+      "canonical_name": "Metrics",
+      "aliases": [
+        "Metrics",
+        "metrics"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "tracing",
+      "canonical_name": "Tracing",
+      "aliases": [
+        "distributed tracing",
+        "tracing",
+        "Tracing"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "opentelemetry",
+      "canonical_name": "OpenTelemetry",
+      "aliases": [
+        "OpenTelemetry",
+        "opentelemetry",
+        "otel"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "prometheus",
+      "canonical_name": "Prometheus",
+      "aliases": [
+        "prometheus",
+        "Prometheus"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "grafana",
+      "canonical_name": "Grafana",
+      "aliases": [
+        "Grafana",
+        "grafana"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "elk_stack",
+      "canonical_name": "ELK Stack",
+      "aliases": [
+        "elasticsearch logstash kibana",
+        "elk",
+        "ELK Stack"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sentry",
+      "canonical_name": "Sentry",
+      "aliases": [
+        "sentry",
+        "Sentry"
+      ],
+      "category": "Observability",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "microservices",
+      "canonical_name": "Microservices",
+      "aliases": [
+        "microservice",
+        "microservices",
+        "Microservices"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "monolith",
+      "canonical_name": "Monolith",
+      "aliases": [
+        "monolith",
+        "Monolith",
+        "monolithic"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "event_driven_architecture",
+      "canonical_name": "Event-Driven Architecture",
+      "aliases": [
+        "eda",
+        "event driven",
+        "event-driven",
+        "Event-Driven Architecture"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "message_queues",
+      "canonical_name": "Message Queues",
+      "aliases": [
+        "message queues",
+        "Message Queues",
+        "mq"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "kafka",
+      "canonical_name": "Kafka",
+      "aliases": [
+        "apache kafka",
+        "Kafka",
+        "kafka"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "clean_architecture",
+      "canonical_name": "Clean Architecture",
+      "aliases": [
+        "clean architecture",
+        "Clean Architecture"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ddd",
+      "canonical_name": "DDD",
+      "aliases": [
+        "DDD",
+        "ddd",
+        "domain driven design"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cqrs",
+      "canonical_name": "CQRS",
+      "aliases": [
+        "cqrs",
+        "CQRS"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "solid",
+      "canonical_name": "SOLID",
+      "aliases": [
+        "SOLID",
+        "solid"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "design_patterns",
+      "canonical_name": "Design Patterns",
+      "aliases": [
+        "design patterns",
+        "Design Patterns"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "caching",
+      "canonical_name": "Caching",
+      "aliases": [
+        "cache",
+        "caching",
+        "Caching"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cdn",
+      "canonical_name": "CDN",
+      "aliases": [
+        "CDN",
+        "cdn",
+        "content delivery network"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "scalability",
+      "canonical_name": "Scalability",
+      "aliases": [
+        "scalability",
+        "Scalability",
+        "scaling"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "resilience",
+      "canonical_name": "Resilience",
+      "aliases": [
+        "fault tolerance",
+        "Resilience",
+        "resilience"
+      ],
+      "category": "Architecture & Patterns",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "etl",
+      "canonical_name": "ETL",
+      "aliases": [
+        "ETL",
+        "etl"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "batch_processing",
+      "canonical_name": "Batch Processing",
+      "aliases": [
+        "batch processing",
+        "Batch Processing"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "stream_processing",
+      "canonical_name": "Stream Processing",
+      "aliases": [
+        "stream processing",
+        "Stream Processing"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "feature_engineering",
+      "canonical_name": "Feature Engineering",
+      "aliases": [
+        "feature engineering",
+        "Feature Engineering"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "model_serving",
+      "canonical_name": "Model Serving",
+      "aliases": [
+        "model serving",
+        "Model Serving"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vector_databases",
+      "canonical_name": "Vector Databases",
+      "aliases": [
+        "faiss",
+        "pinecone",
+        "vector database",
+        "Vector Databases",
+        "vector db",
+        "weaviate"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rag",
+      "canonical_name": "RAG",
+      "aliases": [
+        "RAG",
+        "rag",
+        "retrieval augmented generation"
+      ],
+      "category": "Data & ML Adjacent",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "postman",
+      "canonical_name": "Postman",
+      "aliases": [
+        "postman",
+        "Postman"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "swagger_ui",
+      "canonical_name": "Swagger UI",
+      "aliases": [
+        "Swagger UI",
+        "swagger ui"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "eslint",
+      "canonical_name": "ESLint",
+      "aliases": [
+        "eslint",
+        "ESLint"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "prettier",
+      "canonical_name": "Prettier",
+      "aliases": [
+        "prettier",
+        "Prettier"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vite",
+      "canonical_name": "Vite",
+      "aliases": [
+        "vite",
+        "Vite"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "webpack",
+      "canonical_name": "Webpack",
+      "aliases": [
+        "webpack",
+        "Webpack"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "babel",
+      "canonical_name": "Babel",
+      "aliases": [
+        "babel",
+        "Babel"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "npm",
+      "canonical_name": "npm",
+      "aliases": [
+        "npm"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "pnpm",
+      "canonical_name": "pnpm",
+      "aliases": [
+        "pnpm"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "yarn",
+      "canonical_name": "yarn",
+      "aliases": [
+        "yarn"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "pip",
+      "canonical_name": "pip",
+      "aliases": [
+        "pip"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "poetry",
+      "canonical_name": "Poetry",
+      "aliases": [
+        "poetry",
+        "Poetry"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "maven",
+      "canonical_name": "Maven",
+      "aliases": [
+        "Maven",
+        "maven"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "gradle",
+      "canonical_name": "Gradle",
+      "aliases": [
+        "gradle",
+        "Gradle"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nuget",
+      "canonical_name": "NuGet",
+      "aliases": [
+        "nuget",
+        "NuGet"
+      ],
+      "category": "Tooling",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "concurrency",
+      "canonical_name": "Concurrency",
+      "aliases": [
+        "async",
+        "concurrency",
+        "Concurrency",
+        "multithreading"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rate_limiting_token_bucket",
+      "canonical_name": "Rate Limiting (Token Bucket)",
+      "aliases": [
+        "rate limiter token bucket",
+        "Rate Limiting (Token Bucket)",
+        "token bucket"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "circuit_breaker",
+      "canonical_name": "Circuit Breaker",
+      "aliases": [
+        "circuit breaker",
+        "Circuit Breaker"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "retries_with_backoff",
+      "canonical_name": "Retries with Backoff",
+      "aliases": [
+        "exponential backoff",
+        "Retries with Backoff",
+        "retry backoff"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "database_connection_pooling",
+      "canonical_name": "Database Connection Pooling",
+      "aliases": [
+        "connection pooling",
+        "Database Connection Pooling",
+        "db pool"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "message_ordering",
+      "canonical_name": "Message Ordering",
+      "aliases": [
+        "Message Ordering",
+        "message ordering",
+        "ordering guarantees"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "schema_registry",
+      "canonical_name": "Schema Registry",
+      "aliases": [
+        "schema registry",
+        "Schema Registry"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "protobuf",
+      "canonical_name": "Protobuf",
+      "aliases": [
+        "Protobuf",
+        "protobuf",
+        "protocol buffers"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "avro",
+      "canonical_name": "Avro",
+      "aliases": [
+        "Avro",
+        "avro"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "json_schema",
+      "canonical_name": "JSON Schema",
+      "aliases": [
+        "json schema",
+        "JSON Schema"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "csrf_protection",
+      "canonical_name": "CSRF Protection",
+      "aliases": [
+        "csrf",
+        "CSRF Protection"
+      ],
+      "category": "Security Details",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "xss_mitigation",
+      "canonical_name": "XSS Mitigation",
+      "aliases": [
+        "xss",
+        "XSS Mitigation"
+      ],
+      "category": "Security Details",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sql_injection_prevention",
+      "canonical_name": "SQL Injection Prevention",
+      "aliases": [
+        "sql injection",
+        "SQL Injection Prevention",
+        "sqli"
+      ],
+      "category": "Security Details",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rate_limit_abuse_protection",
+      "canonical_name": "Rate Limit Abuse Protection",
+      "aliases": [
+        "abuse prevention",
+        "anti abuse",
+        "Rate Limit Abuse Protection"
+      ],
+      "category": "Security Details",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "security_headers",
+      "canonical_name": "Security Headers",
+      "aliases": [
+        "csp",
+        "hsts",
+        "security headers",
+        "Security Headers",
+        "x-frame-options"
+      ],
+      "category": "Security Details",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_container_registry",
+      "canonical_name": "Azure Container Registry",
+      "aliases": [
+        "acr",
+        "Azure Container Registry",
+        "azure container registry"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "aws_ecr",
+      "canonical_name": "AWS ECR",
+      "aliases": [
+        "AWS ECR",
+        "ecr",
+        "elastic container registry"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "aws_iam_policies",
+      "canonical_name": "AWS IAM Policies",
+      "aliases": [
+        "AWS IAM Policies",
+        "iam policies",
+        "iam policy"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_bicep",
+      "canonical_name": "Azure Bicep",
+      "aliases": [
+        "Azure Bicep",
+        "bicep"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloudformation",
+      "canonical_name": "CloudFormation",
+      "aliases": [
+        "cloudformation",
+        "CloudFormation"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "serverless",
+      "canonical_name": "Serverless",
+      "aliases": [
+        "Serverless",
+        "serverless"
+      ],
+      "category": "Cloud Add-ons",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "state_management",
+      "canonical_name": "State Management",
+      "aliases": [
+        "State Management",
+        "state management"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "react_query",
+      "canonical_name": "React Query",
+      "aliases": [
+        "react query",
+        "React Query",
+        "tanstack query"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "redux",
+      "canonical_name": "Redux",
+      "aliases": [
+        "redux",
+        "Redux"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "zustand",
+      "canonical_name": "Zustand",
+      "aliases": [
+        "zustand",
+        "Zustand"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "accessibility",
+      "canonical_name": "Accessibility",
+      "aliases": [
+        "a11y",
+        "accessibility",
+        "Accessibility"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "responsive_design",
+      "canonical_name": "Responsive Design",
+      "aliases": [
+        "responsive design",
+        "Responsive Design"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "slo_sli",
+      "canonical_name": "SLO/SLI",
+      "aliases": [
+        "sli",
+        "slo",
+        "SLO/SLI"
+      ],
+      "category": "SRE",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "incident_management",
+      "canonical_name": "Incident Management",
+      "aliases": [
+        "Incident Management",
+        "incident management",
+        "on-call"
+      ],
+      "category": "SRE",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "postmortems",
+      "canonical_name": "Postmortems",
+      "aliases": [
+        "blameless postmortem",
+        "postmortem",
+        "Postmortems"
+      ],
+      "category": "SRE",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "capacity_planning",
+      "canonical_name": "Capacity Planning",
+      "aliases": [
+        "Capacity Planning",
+        "capacity planning"
+      ],
+      "category": "SRE",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "prisma",
+      "canonical_name": "Prisma",
+      "aliases": [
+        "prisma",
+        "Prisma"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "typeorm",
+      "canonical_name": "TypeORM",
+      "aliases": [
+        "TypeORM",
+        "typeorm"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sequelize",
+      "canonical_name": "Sequelize",
+      "aliases": [
+        "sequelize",
+        "Sequelize"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "mongoose",
+      "canonical_name": "Mongoose",
+      "aliases": [
+        "Mongoose",
+        "mongoose"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "entity_framework_core",
+      "canonical_name": "Entity Framework Core",
+      "aliases": [
+        "ef core",
+        "entity framework",
+        "Entity Framework Core",
+        "entity framework core"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "dapper",
+      "canonical_name": "Dapper",
+      "aliases": [
+        "Dapper",
+        "dapper"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rabbitmq",
+      "canonical_name": "RabbitMQ",
+      "aliases": [
+        "RabbitMQ",
+        "rabbitmq"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nats",
+      "canonical_name": "NATS",
+      "aliases": [
+        "NATS",
+        "nats"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "redis_streams",
+      "canonical_name": "Redis Streams",
+      "aliases": [
+        "redis streams",
+        "Redis Streams"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "bullmq",
+      "canonical_name": "BullMQ",
+      "aliases": [
+        "bull mq",
+        "BullMQ",
+        "bullmq"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "celery",
+      "canonical_name": "Celery",
+      "aliases": [
+        "Celery",
+        "celery"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rq_redis_queue",
+      "canonical_name": "RQ (Redis Queue)",
+      "aliases": [
+        "redis queue",
+        "rq",
+        "RQ (Redis Queue)"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "supabase",
+      "canonical_name": "Supabase",
+      "aliases": [
+        "supabase",
+        "Supabase"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "firebase",
+      "canonical_name": "Firebase",
+      "aliases": [
+        "firebase",
+        "Firebase"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "keycloak",
+      "canonical_name": "Keycloak",
+      "aliases": [
+        "keycloak",
+        "Keycloak"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nginx",
+      "canonical_name": "Nginx",
+      "aliases": [
+        "Nginx",
+        "nginx"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "traefik",
+      "canonical_name": "Traefik",
+      "aliases": [
+        "Traefik",
+        "traefik"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "envoy",
+      "canonical_name": "Envoy",
+      "aliases": [
+        "envoy",
+        "Envoy"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "istio",
+      "canonical_name": "Istio",
+      "aliases": [
+        "Istio",
+        "istio"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "kustomize",
+      "canonical_name": "Kustomize",
+      "aliases": [
+        "kustomize",
+        "Kustomize"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "argo_cd",
+      "canonical_name": "Argo CD",
+      "aliases": [
+        "Argo CD",
+        "argo cd",
+        "argocd"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "fluxcd",
+      "canonical_name": "FluxCD",
+      "aliases": [
+        "flux cd",
+        "FluxCD",
+        "fluxcd"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "datadog",
+      "canonical_name": "Datadog",
+      "aliases": [
+        "datadog",
+        "Datadog"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "new_relic",
+      "canonical_name": "New Relic",
+      "aliases": [
+        "New Relic",
+        "new relic"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vault",
+      "canonical_name": "Vault",
+      "aliases": [
+        "hashicorp vault",
+        "vault",
+        "Vault"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloudflare",
+      "canonical_name": "Cloudflare",
+      "aliases": [
+        "cloudflare",
+        "Cloudflare"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "s3_presigned_urls",
+      "canonical_name": "S3 Presigned URLs",
+      "aliases": [
+        "presigned url",
+        "s3 presigned url",
+        "S3 Presigned URLs"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "stripe",
+      "canonical_name": "Stripe",
+      "aliases": [
+        "Stripe",
+        "stripe"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sendgrid",
+      "canonical_name": "SendGrid",
+      "aliases": [
+        "sendgrid",
+        "SendGrid"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "twilio",
+      "canonical_name": "Twilio",
+      "aliases": [
+        "twilio",
+        "Twilio"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "openai_api",
+      "canonical_name": "OpenAI API",
+      "aliases": [
+        "openai",
+        "OpenAI API",
+        "openai api"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "langchain",
+      "canonical_name": "LangChain",
+      "aliases": [
+        "langchain",
+        "LangChain"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "faiss",
+      "canonical_name": "FAISS",
+      "aliases": [
+        "FAISS",
+        "faiss"
+      ],
+      "category": "Libraries & Services",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloudtrail",
+      "canonical_name": "CloudTrail",
+      "aliases": [
+        "cloudtrail",
+        "CloudTrail"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "config",
+      "canonical_name": "Config",
+      "aliases": [
+        "aws config",
+        "Config"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "waf",
+      "canonical_name": "WAF",
+      "aliases": [
+        "aws waf",
+        "WAF",
+        "waf"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "shield",
+      "canonical_name": "Shield",
+      "aliases": [
+        "aws shield",
+        "Shield"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "elb",
+      "canonical_name": "ELB",
+      "aliases": [
+        "elastic load balancer",
+        "ELB",
+        "elb",
+        "load balancer"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "alb",
+      "canonical_name": "ALB",
+      "aliases": [
+        "ALB",
+        "alb",
+        "application load balancer"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nlb",
+      "canonical_name": "NLB",
+      "aliases": [
+        "network load balancer",
+        "NLB",
+        "nlb"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "auto_scaling",
+      "canonical_name": "Auto Scaling",
+      "aliases": [
+        "auto scaling",
+        "Auto Scaling",
+        "autoscaling"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sns_fanout",
+      "canonical_name": "SNS Fanout",
+      "aliases": [
+        "SNS Fanout",
+        "sns fanout"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sqs_dlq",
+      "canonical_name": "SQS DLQ",
+      "aliases": [
+        "dead letter queue",
+        "dlq",
+        "sqs dlq",
+        "SQS DLQ"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "step_functions",
+      "canonical_name": "Step Functions",
+      "aliases": [
+        "aws step functions",
+        "step functions",
+        "Step Functions"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "eventbridge",
+      "canonical_name": "EventBridge",
+      "aliases": [
+        "cloudwatch events",
+        "EventBridge",
+        "eventbridge"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "dms",
+      "canonical_name": "DMS",
+      "aliases": [
+        "database migration service",
+        "DMS",
+        "dms"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "athena",
+      "canonical_name": "Athena",
+      "aliases": [
+        "athena",
+        "Athena"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "glue",
+      "canonical_name": "Glue",
+      "aliases": [
+        "aws glue",
+        "glue",
+        "Glue"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "emr",
+      "canonical_name": "EMR",
+      "aliases": [
+        "EMR",
+        "emr"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "kinesis",
+      "canonical_name": "Kinesis",
+      "aliases": [
+        "kinesis",
+        "Kinesis"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "redshift",
+      "canonical_name": "Redshift",
+      "aliases": [
+        "redshift",
+        "Redshift"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud9",
+      "canonical_name": "Cloud9",
+      "aliases": [
+        "cloud9",
+        "Cloud9"
+      ],
+      "category": "Cloud (AWS)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_container_apps",
+      "canonical_name": "Azure Container Apps",
+      "aliases": [
+        "Azure Container Apps",
+        "azure container apps",
+        "container apps"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_logic_apps",
+      "canonical_name": "Azure Logic Apps",
+      "aliases": [
+        "Azure Logic Apps",
+        "azure logic apps",
+        "logic apps"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_event_grid",
+      "canonical_name": "Azure Event Grid",
+      "aliases": [
+        "azure event grid",
+        "Azure Event Grid",
+        "event grid"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_event_hubs",
+      "canonical_name": "Azure Event Hubs",
+      "aliases": [
+        "Azure Event Hubs",
+        "azure event hubs",
+        "event hubs"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_cosmos_db",
+      "canonical_name": "Azure Cosmos DB",
+      "aliases": [
+        "Azure Cosmos DB",
+        "azure cosmos db",
+        "cosmos db"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_front_door",
+      "canonical_name": "Azure Front Door",
+      "aliases": [
+        "Azure Front Door",
+        "azure front door",
+        "front door"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_cdn",
+      "canonical_name": "Azure CDN",
+      "aliases": [
+        "Azure CDN",
+        "azure cdn"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_virtual_network",
+      "canonical_name": "Azure Virtual Network",
+      "aliases": [
+        "Azure Virtual Network",
+        "azure vnet",
+        "virtual network",
+        "vnet"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_nsg",
+      "canonical_name": "Azure NSG",
+      "aliases": [
+        "Azure NSG",
+        "network security group",
+        "nsg"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_load_balancer",
+      "canonical_name": "Azure Load Balancer",
+      "aliases": [
+        "azure load balancer",
+        "Azure Load Balancer"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_application_gateway",
+      "canonical_name": "Azure Application Gateway",
+      "aliases": [
+        "app gateway",
+        "application gateway",
+        "Azure Application Gateway"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_private_link",
+      "canonical_name": "Azure Private Link",
+      "aliases": [
+        "Azure Private Link",
+        "private link"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_managed_identity",
+      "canonical_name": "Azure Managed Identity",
+      "aliases": [
+        "Azure Managed Identity",
+        "managed identity",
+        "msi"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_policy",
+      "canonical_name": "Azure Policy",
+      "aliases": [
+        "azure policy",
+        "Azure Policy"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "azure_cost_management",
+      "canonical_name": "Azure Cost Management",
+      "aliases": [
+        "azure cost management",
+        "Azure Cost Management",
+        "cost management"
+      ],
+      "category": "Cloud (Azure)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "google_cloud",
+      "canonical_name": "Google Cloud",
+      "aliases": [
+        "gcp",
+        "Google Cloud",
+        "google cloud platform"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "compute_engine",
+      "canonical_name": "Compute Engine",
+      "aliases": [
+        "compute engine",
+        "Compute Engine"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_storage",
+      "canonical_name": "Cloud Storage",
+      "aliases": [
+        "cloud storage",
+        "Cloud Storage",
+        "gcs"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_run",
+      "canonical_name": "Cloud Run",
+      "aliases": [
+        "cloud run",
+        "Cloud Run"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_functions",
+      "canonical_name": "Cloud Functions",
+      "aliases": [
+        "cloud functions",
+        "Cloud Functions"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_sql",
+      "canonical_name": "Cloud SQL",
+      "aliases": [
+        "Cloud SQL",
+        "cloud sql"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "gke",
+      "canonical_name": "GKE",
+      "aliases": [
+        "gke",
+        "GKE",
+        "google kubernetes engine"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "bigquery",
+      "canonical_name": "BigQuery",
+      "aliases": [
+        "BigQuery",
+        "bigquery"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "pub_sub",
+      "canonical_name": "Pub/Sub",
+      "aliases": [
+        "pub/sub",
+        "Pub/Sub",
+        "pubsub"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_load_balancing",
+      "canonical_name": "Cloud Load Balancing",
+      "aliases": [
+        "Cloud Load Balancing",
+        "cloud load balancing",
+        "gcp load balancer"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cloud_iam",
+      "canonical_name": "Cloud IAM",
+      "aliases": [
+        "cloud iam",
+        "Cloud IAM",
+        "gcp iam"
+      ],
+      "category": "Cloud (GCP)",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "openapi_generator",
+      "canonical_name": "OpenAPI Generator",
+      "aliases": [
+        "OpenAPI Generator",
+        "openapi generator"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "async_await",
+      "canonical_name": "Async/Await",
+      "aliases": [
+        "async",
+        "Async/Await",
+        "async/await",
+        "await"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "thread_pools",
+      "canonical_name": "Thread Pools",
+      "aliases": [
+        "thread pool",
+        "Thread Pools",
+        "thread pools"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "event_loop",
+      "canonical_name": "Event Loop",
+      "aliases": [
+        "event loop",
+        "Event Loop"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "backpressure",
+      "canonical_name": "Backpressure",
+      "aliases": [
+        "Backpressure",
+        "backpressure"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "api_gateway_pattern",
+      "canonical_name": "API Gateway Pattern",
+      "aliases": [
+        "API Gateway Pattern",
+        "api gateway pattern"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "saga_pattern",
+      "canonical_name": "Saga Pattern",
+      "aliases": [
+        "saga",
+        "Saga Pattern",
+        "saga pattern"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "outbox_pattern",
+      "canonical_name": "Outbox Pattern",
+      "aliases": [
+        "Outbox Pattern",
+        "outbox pattern",
+        "transactional outbox"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "idempotency_keys",
+      "canonical_name": "Idempotency Keys",
+      "aliases": [
+        "idempotency key",
+        "idempotency keys",
+        "Idempotency Keys"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "bulkheads",
+      "canonical_name": "Bulkheads",
+      "aliases": [
+        "bulkhead pattern",
+        "bulkheads",
+        "Bulkheads"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "rate_limiting_leaky_bucket",
+      "canonical_name": "Rate Limiting (Leaky Bucket)",
+      "aliases": [
+        "leaky bucket",
+        "Rate Limiting (Leaky Bucket)"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "blue_green_deployment",
+      "canonical_name": "Blue/Green Deployment",
+      "aliases": [
+        "blue green",
+        "blue/green",
+        "Blue/Green Deployment"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "canary_deployment",
+      "canonical_name": "Canary Deployment",
+      "aliases": [
+        "Canary Deployment",
+        "canary deployment"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "feature_flags",
+      "canonical_name": "Feature Flags",
+      "aliases": [
+        "feature flags",
+        "Feature Flags",
+        "feature toggles"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "api_documentation",
+      "canonical_name": "API Documentation",
+      "aliases": [
+        "api docs",
+        "API Documentation",
+        "api documentation"
+      ],
+      "category": "Backend Concepts",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cassandra",
+      "canonical_name": "Cassandra",
+      "aliases": [
+        "Cassandra",
+        "cassandra"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "neo4j",
+      "canonical_name": "Neo4j",
+      "aliases": [
+        "graph database",
+        "Neo4j",
+        "neo4j"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "influxdb",
+      "canonical_name": "InfluxDB",
+      "aliases": [
+        "InfluxDB",
+        "influxdb"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "clickhouse",
+      "canonical_name": "ClickHouse",
+      "aliases": [
+        "ClickHouse",
+        "clickhouse"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "snowflake",
+      "canonical_name": "Snowflake",
+      "aliases": [
+        "Snowflake",
+        "snowflake"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "bigtable",
+      "canonical_name": "Bigtable",
+      "aliases": [
+        "Bigtable",
+        "bigtable"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "memcached",
+      "canonical_name": "Memcached",
+      "aliases": [
+        "Memcached",
+        "memcached"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "apache_pulsar",
+      "canonical_name": "Apache Pulsar",
+      "aliases": [
+        "apache pulsar",
+        "Apache Pulsar",
+        "pulsar"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "apache_flink",
+      "canonical_name": "Apache Flink",
+      "aliases": [
+        "apache flink",
+        "Apache Flink",
+        "flink"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "apache_spark",
+      "canonical_name": "Apache Spark",
+      "aliases": [
+        "Apache Spark",
+        "apache spark",
+        "spark"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "airflow",
+      "canonical_name": "Airflow",
+      "aliases": [
+        "airflow",
+        "Airflow",
+        "apache airflow"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "dbt",
+      "canonical_name": "dbt",
+      "aliases": [
+        "data build tool",
+        "dbt"
+      ],
+      "category": "Data Platforms",
+      "roles": [
+        "backend",
+        "cloud_devops",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "html",
+      "canonical_name": "HTML",
+      "aliases": [
+        "HTML",
+        "html",
+        "html5"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "css",
+      "canonical_name": "CSS",
+      "aliases": [
+        "css",
+        "CSS",
+        "css3"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "core"
+    },
+    {
+      "id": "sass",
+      "canonical_name": "Sass",
+      "aliases": [
+        "sass",
+        "Sass",
+        "scss"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "material_ui",
+      "canonical_name": "Material UI",
+      "aliases": [
+        "material ui",
+        "Material UI",
+        "mui"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "shadcn_ui",
+      "canonical_name": "shadcn/ui",
+      "aliases": [
+        "shadcn",
+        "shadcn ui",
+        "shadcn/ui"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "framer_motion",
+      "canonical_name": "Framer Motion",
+      "aliases": [
+        "Framer Motion",
+        "framer motion"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "recharts",
+      "canonical_name": "Recharts",
+      "aliases": [
+        "Recharts",
+        "recharts"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "storybook",
+      "canonical_name": "Storybook",
+      "aliases": [
+        "Storybook",
+        "storybook"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "jest",
+      "canonical_name": "Jest",
+      "aliases": [
+        "Jest",
+        "jest"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "vitest",
+      "canonical_name": "Vitest",
+      "aliases": [
+        "vitest",
+        "Vitest"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cypress",
+      "canonical_name": "Cypress",
+      "aliases": [
+        "Cypress",
+        "cypress"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "playwright",
+      "canonical_name": "Playwright",
+      "aliases": [
+        "playwright",
+        "Playwright"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "react_testing_library",
+      "canonical_name": "React Testing Library",
+      "aliases": [
+        "react testing library",
+        "React Testing Library",
+        "rtl"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ssr",
+      "canonical_name": "SSR",
+      "aliases": [
+        "server side rendering",
+        "SSR",
+        "ssr"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "ssg",
+      "canonical_name": "SSG",
+      "aliases": [
+        "ssg",
+        "SSG",
+        "static site generation"
+      ],
+      "category": "Frontend Concepts",
+      "roles": [
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "pci_dss",
+      "canonical_name": "PCI DSS",
+      "aliases": [
+        "pci dss",
+        "PCI DSS"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "gdpr",
+      "canonical_name": "GDPR",
+      "aliases": [
+        "GDPR",
+        "gdpr"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "soc_2",
+      "canonical_name": "SOC 2",
+      "aliases": [
+        "soc 2",
+        "SOC 2",
+        "soc2"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "data_encryption_at_rest",
+      "canonical_name": "Data Encryption at Rest",
+      "aliases": [
+        "Data Encryption at Rest",
+        "encryption at rest"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "data_encryption_in_transit",
+      "canonical_name": "Data Encryption in Transit",
+      "aliases": [
+        "Data Encryption in Transit",
+        "encryption in transit"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "password_hashing",
+      "canonical_name": "Password Hashing",
+      "aliases": [
+        "argon2",
+        "bcrypt",
+        "password hashing",
+        "Password Hashing"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "mfa",
+      "canonical_name": "MFA",
+      "aliases": [
+        "2fa",
+        "mfa",
+        "MFA",
+        "multi factor authentication"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "audit_logging",
+      "canonical_name": "Audit Logging",
+      "aliases": [
+        "audit logging",
+        "Audit Logging",
+        "audit logs"
+      ],
+      "category": "Compliance & Security",
+      "roles": [
+        "backend",
+        "fullstack",
+        "cloud_devops"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "docker_buildx",
+      "canonical_name": "Docker Buildx",
+      "aliases": [
+        "buildx",
+        "Docker Buildx"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "kubernetes_operators",
+      "canonical_name": "Kubernetes Operators",
+      "aliases": [
+        "Kubernetes Operators",
+        "operator",
+        "operators"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "keda",
+      "canonical_name": "KEDA",
+      "aliases": [
+        "KEDA",
+        "keda"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cluster_autoscaler",
+      "canonical_name": "Cluster Autoscaler",
+      "aliases": [
+        "Cluster Autoscaler",
+        "cluster autoscaler"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "karpenter",
+      "canonical_name": "Karpenter",
+      "aliases": [
+        "karpenter",
+        "Karpenter"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "containerd",
+      "canonical_name": "Containerd",
+      "aliases": [
+        "containerd",
+        "Containerd"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "cri_o",
+      "canonical_name": "CRI-O",
+      "aliases": [
+        "cri-o",
+        "CRI-O",
+        "crio"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "packer",
+      "canonical_name": "Packer",
+      "aliases": [
+        "Packer",
+        "packer"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "consul",
+      "canonical_name": "Consul",
+      "aliases": [
+        "consul",
+        "Consul"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "nomad",
+      "canonical_name": "Nomad",
+      "aliases": [
+        "nomad",
+        "Nomad"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "circleci",
+      "canonical_name": "CircleCI",
+      "aliases": [
+        "CircleCI",
+        "circleci"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "sonarqube",
+      "canonical_name": "SonarQube",
+      "aliases": [
+        "sonarqube",
+        "SonarQube"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "trivy",
+      "canonical_name": "Trivy",
+      "aliases": [
+        "trivy",
+        "Trivy"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "dependabot",
+      "canonical_name": "Dependabot",
+      "aliases": [
+        "Dependabot",
+        "dependabot"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    },
+    {
+      "id": "renovate",
+      "canonical_name": "Renovate",
+      "aliases": [
+        "renovate",
+        "Renovate"
+      ],
+      "category": "DevOps Tooling",
+      "roles": [
+        "cloud_devops",
+        "backend",
+        "fullstack"
+      ],
+      "level": "supplementary"
+    }
+  ]
+}

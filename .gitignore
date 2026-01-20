@@ -1,0 +1,135 @@
+# OS / Editor
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*.lnk
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Packaging / build
+build/
+dist/
+wheels/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+envs/
+.env/
+.conda/
+.python-version
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Tests / coverage / caches
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pyright/
+.nox/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+
+# IDE / Project settings
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.spyproject/
+.vs/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Data science directories (keep small samples via exceptions)
+data/raw/
+data/interim/
+data/external/
+!data/.gitkeep
+!data/README.md
+
+# Experiment artifacts
+artifacts/
+outputs/
+runs/
+checkpoints/
+models/
+lightning_logs/
+ray_results/
+tensorboard/
+tb_logs/
+events.out.tfevents.*
+mlruns/
+mlartifacts/
+wandb/
+comet-ml/
+
+# Model/weight files
+*.ckpt
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.pb
+*.pkl
+*.joblib
+*.sav
+
+# Environment / secrets
+.env
+.env.*
+*.env
+.envrc
+.secrets/
+secrets/
+
+# Node (often present in tooling/visualizations)
+node_modules/
+npm-debug.log*
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
