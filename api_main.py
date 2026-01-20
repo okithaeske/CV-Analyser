@@ -23,6 +23,8 @@ def _parse_cors(origins_str: str):
 # Comma-separated list of allowed origins, e.g.
 #   CORS_ALLOWED_ORIGINS=https://your-app.vercel.app,http://localhost:5173
 CORS_ALLOWED_ORIGINS = _parse_cors(os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:5173"))
+# Optional regex to match multiple origins (e.g., Vercel previews)
+CORS_ALLOWED_ORIGIN_REGEX = os.getenv("CORS_ALLOWED_ORIGIN_REGEX")
 
 # --------- Load taxonomy ---------
 TAXONOMY_PATH = os.getenv("SKILLS_TAXONOMY_PATH", "skills_taxonomy.json")
@@ -150,13 +152,22 @@ class AnalyzeResponse(BaseModel):
 app = FastAPI(title="Skill Gap Analyzer", version="1.0.0")
 
 # Configure CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=CORS_ALLOWED_ORIGINS,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+if CORS_ALLOWED_ORIGIN_REGEX:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origin_regex=CORS_ALLOWED_ORIGIN_REGEX,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=CORS_ALLOWED_ORIGINS,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 @app.get("/health")
 def health():
