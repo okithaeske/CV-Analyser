@@ -173,6 +173,14 @@ else:
 def health():
     return {"ok": True}
 
+@app.get("/")
+def root():
+    return {
+        "ok": True,
+        "service": "Skill Gap Analyzer API",
+        "endpoints": ["/health", "/analyze", "/docs"],
+    }
+
 @app.post("/analyze", response_model=AnalyzeResponse)
 def analyze(req: AnalyzeRequest):
     resume_sk = extract_skills(req.resume_text, req.target_role)
