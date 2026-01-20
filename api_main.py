@@ -12,7 +12,17 @@ from pydantic import BaseModel, Field
 from fastapi.middleware.cors import CORSMiddleware
 
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
+def _parse_cors(origins_str: str):
+    s = (origins_str or "").strip()
+    if not s:
+        return []
+    if s == "*":
+        return ["*"]
+    return [o.strip() for o in s.split(",") if o.strip()]
+
+# Comma-separated list of allowed origins, e.g.
+#   CORS_ALLOWED_ORIGINS=https://your-app.vercel.app,http://localhost:5173
+CORS_ALLOWED_ORIGINS = _parse_cors(os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:5173"))
 
 # --------- Load taxonomy ---------
 TAXONOMY_PATH = os.getenv("SKILLS_TAXONOMY_PATH", "skills_taxonomy.json")

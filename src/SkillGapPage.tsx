@@ -1,4 +1,7 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
+// Use Vite worker plugin for PDF.js worker
+// @ts-ignore - Vite returns a Worker constructor for ?worker imports
+import PDFWorker from "pdfjs-dist/build/pdf.worker.mjs?worker";
 import { useAuth } from "./auth/AuthProvider";
 import "./index.css";
 
@@ -38,6 +41,9 @@ export default function SkillGapPage() {
   const [data, setData] = useState<AnalyzeResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [pdfStatus, setPdfStatus] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
+  let pdfWorkerInstance: Worker | null = null;
 
   const missingByPriority = useMemo(() => {
     const out = { High: [] as SkillOut[], Medium: [] as SkillOut[], Low: [] as SkillOut[] };
@@ -68,6 +74,55 @@ export default function SkillGapPage() {
     }
   }
 
+  async function extractPdfText(file: File): Promise<string> {
+    // Lazy import pdfjs to keep initial bundle small
+    const pdfjsLib: any = await import("pdfjs-dist");
+    // Provide a proper Worker instance via Vite's ?worker import
+    if (!pdfWorkerInstance) {
+      // @ts-ignore - constructor provided by Vite worker plugin
+      pdfWorkerInstance = new PDFWorker();
+    }
+    pdfjsLib.GlobalWorkerOptions.workerPort = pdfWorkerInstance;
+
+    const arrayBuffer = await file.arrayBuffer();
+    const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+    const pdf = await loadingTask.promise;
+    let out: string[] = [];
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i);
+      // @ts-ignore - runtime object has items
+      const textContent = await page.getTextContent();
+      // Concatenate strings with spaces to preserve word boundaries
+      const pageText = (textContent.items || [])
+        .map((it: any) => (typeof it?.str === "string" ? it.str : ""))
+        .join(" ");
+      out.push(pageText);
+    }
+    // Normalize whitespace a bit
+    return out.join("\n\n").replace(/\s+/g, " ").trim();
+  }
+
+  async function onPdfSelected(file?: File | null) {
+    if (!file) return;
+    if (file.type !== "application/pdf" && !file.name.toLowerCase().endsWith(".pdf")) {
+      setPdfStatus("Please choose a PDF file (.pdf)");
+      return;
+    }
+    setPdfStatus("Extracting text from PDF...");
+    try {
+      const text = await extractPdfText(file);
+      if (!text || text.length < 5) {
+        setPdfStatus("Couldn’t extract text from this PDF");
+        return;
+      }
+      // Append or replace? Replace to keep it clean.
+      setResumeText(text);
+      setPdfStatus(`Loaded: ${file.name}`);
+    } catch (e: any) {
+      setPdfStatus(e?.message || "Failed to read PDF");
+    }
+  }
+
   return (
     <div className="mx-auto max-w-6xl p-6">
       <h1 className="text-2xl font-bold">Skill Gap Analyzer</h1>
@@ -90,7 +145,12 @@ export default function SkillGapPage() {
 
           <button
             onClick={runAnalyze}
-            disabled={loading || resumeText.trim().length < 30 || jobText.trim().length < 30}
+            disabled={
+              loading ||
+              (pdfStatus !== null && pdfStatus.toLowerCase().includes("extracting")) ||
+              resumeText.trim().length < 30 ||
+              jobText.trim().length < 30
+            }
             className="mt-4 w-full rounded-xl bg-black px-4 py-2 text-white disabled:opacity-40"
           >
             {loading ? "Analyzing..." : "Analyze"}
@@ -113,13 +173,32 @@ export default function SkillGapPage() {
         </div>
 
         <div className="rounded-2xl border bg-white p-4 shadow-sm md:col-span-2">
-          <label className="text-sm font-semibold">Resume Text</label>
+          <div className="flex items-center justify-between gap-3">
+            <label className="text-sm font-semibold">Resume Text</label>
+            <div className="flex items-center gap-2">
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="application/pdf,.pdf"
+                className="hidden"
+                onChange={(e) => onPdfSelected(e.target.files?.[0])}
+              />
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                className="rounded-lg border px-3 py-1 text-sm hover:bg-gray-50"
+              >
+                Attach PDF
+              </button>
+            </div>
+          </div>
           <textarea
             value={resumeText}
             onChange={(e) => setResumeText(e.target.value)}
             className="mt-2 h-40 w-full rounded-xl border p-3 text-sm"
             placeholder="Paste your resume text here..."
           />
+          {pdfStatus && <p className="mt-2 text-xs text-gray-600">{pdfStatus}</p>}
 
           <label className="mt-4 block text-sm font-semibold">Job Description</label>
           <textarea
